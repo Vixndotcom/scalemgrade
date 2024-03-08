@@ -286,7 +286,7 @@ overflow: hidden;
   }
   .images .box3{
     position: absolute;
-    top: 400px;
+    top: 360px;
     right: 80px;
     background: url(assets/girl.jpg) no-repeat 50% 50%;
     background-size: cover;
