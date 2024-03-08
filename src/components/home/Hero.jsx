@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom'
 
 const Hero = () => {
    return (
-     <div className='content z-[99] md:mt-20  bg-paper' >
+     <div className='content z-[99] md:mt-20 mt-36 bg-paper' >
        
       <Dynamics>
        <h1 className='content-inner-bold shadow-text md:mt-10 ' >
