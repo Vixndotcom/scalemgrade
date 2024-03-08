@@ -63,8 +63,9 @@ margin-bottom: 24px ;}
   .bg-paper{
     background-image: url(assets/hero.jpg);
     background-position: center;
-    background-repeat: contain;
+    background-size: contain;
     background-repeat: no-repeat;
+    
   }
 }
 
