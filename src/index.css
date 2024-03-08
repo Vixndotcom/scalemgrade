@@ -50,7 +50,7 @@ margin-bottom: 24px ;}
 .bg-hero{
     background-attachment: fixed;
     background-image: url(assets/hero.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     /* background-position: center; */
     background-color: #1100ff;
