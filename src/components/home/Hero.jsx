@@ -12,7 +12,7 @@ const Hero = () => {
      <div className='content z-[99] md:mt-20 bg-paper' >
        
       <Dynamics>
-       <h1 className='content-inner-bold  md:mt-10' >
+       <h1 className='content-inner-bold  md:mt-10 ' >
          <div className='mb-10'>ACE THOSE </div>
          <div className='mb-5 '>GRADES</div>
       </h1>
