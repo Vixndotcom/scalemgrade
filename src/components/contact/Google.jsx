@@ -30,7 +30,7 @@ const Google = () => {
 
 
  
-    <button onClick={toggleForm} className='text-white font-normal text-[20px] flex'> <span className='mt-4 mr-4'>Fill out the form below: </span>
+    <button onClick={toggleForm} className='text-white font-normal text-[20px] flex'> <span className='mt-4 mr-4'>Fill out the form below </span>
     <img src={showForm ? close : menu } className='w-[16%]' />
     </button> 
  
