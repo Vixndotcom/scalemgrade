@@ -58,7 +58,7 @@ margin-bottom: 24px ;}
     background-repeat: no-repeat;
      background-position: center; 
     background-color: #1100ff;
-     height: 120vh; 
+     height: 110vh; 
     width: 100vw; 
     background-position: center;
 
@@ -249,8 +249,8 @@ overflow: hidden;
   }
 
   .content p{
-    font-size: 24px;
-    width: 80%;
+    font-size: 28px;
+    width: 100%;
     color: rgb(253, 236, 2);
   }
 
@@ -290,7 +290,7 @@ overflow: hidden;
   }
   .images .box3{
     position: absolute;
-    top: 360px;
+    top: 400px;
     right: 80px;
     background: url(assets/girl.jpg) no-repeat 50% 50%;
     background-size: cover;
