@@ -46,6 +46,10 @@ margin-bottom: 24px ;}
    overflow: hidden;
     
 }
+.shadow-text {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
 
 .bg-hero{
     background-attachment: fixed;
@@ -245,7 +249,7 @@ overflow: hidden;
   }
 
   .content p{
-    font-size: 16px;
+    font-size: 24px;
     width: 80%;
     color: rgb(253, 236, 2);
   }
