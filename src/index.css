@@ -330,14 +330,14 @@ overflow: hidden;
 
   @media(max-width:440px){
     .images .box1{
-   right: 60px;
+   right: 40px;
     }
     .images .box2{
-     right: 264px;
+     right: 244px;
      
     }
     .images .box3{
-   right: 60px;
+   right: 40px;
      
     }}
   @media(max-width:400px){
