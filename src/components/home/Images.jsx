@@ -3,7 +3,7 @@ import React from 'react'
 
 function Images () {
   return (
-    <section className='mb-4'>
+    <section className='mb-4 z-[99]'>
     <div className='Topp'>
    
         <div className='images  '> 

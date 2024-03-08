@@ -64,7 +64,8 @@ margin-bottom: 24px ;}
     background-image: url(assets/hero.jpg);
     background-position: center;
     background-size: contain;
-    width: 98%;
+    width: 100%;
+    margin-top: 24px;
     background-repeat: no-repeat;
     
   }
