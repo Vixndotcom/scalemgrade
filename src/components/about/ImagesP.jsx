@@ -14,9 +14,7 @@ const ImagesP = () => {
     <div className='flex w-[370px] mt-10 text-center p-6 textt'>
  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, quibusdam, magni nihil \
  voluptatibus iusto laborum consequatur excepturi recusandae dignissimos nesciunt a dolorem 
- commodi ab ducimus distinctio molestiae cumque exercitationem necessitatibus odio sequi! Debitis 
-  
- quibusdam ratione accusamus libero velit doloribus, fugiat fuga asperiores neque maiores id?
+ commodi ab ducimus distinctio molestiae cumque exercitationem necessitatibus odio sequi! 
 
 
  
