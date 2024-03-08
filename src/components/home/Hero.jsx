@@ -10,14 +10,14 @@ import { Link } from 'react-router-dom'
 const Hero = () => {
    return (
      <div className='content z-[99] md:mt-20' >
-       {/* <h1 className='content-inner-bold mt-10 z-[99]' ref={el=>h1 =el} > */}
+       
       <Dynamics>
        <h1 className='content-inner-bold z-[99] md:mt-10' >
          <div className='mb-10'>ACE THOSE </div>
          <div className='mb-5 '>GRADES</div>
       </h1>
       </Dynamics>
-       <p className='text-yellow-400'>Navigate your learning <br /> experience seamlessly with success
+       <p className=''>Navigate your learning <br /> experience seamlessly with success
          </p> 
          <Statement>
           <button className='font-bold' >

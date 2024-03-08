@@ -49,7 +49,7 @@ margin-bottom: 24px ;}
 
 .bg-hero{
     background-attachment: fixed;
-    background-image: url(assets/pexels-katerina-holmes-5905611.jpg);
+    background-image: url(assets/hero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     /* background-position: center; */
@@ -69,13 +69,8 @@ margin-bottom: 24px ;}
     height: 100vh;
 }
 }
-@media(max-width:520px){
-  .bg-hero{
-  background-size: contain;
-  background-repeat: no-repeat;
 
-}
-}
+
 
 .clip{
     clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 
@@ -239,7 +234,7 @@ overflow: hidden;
   .content p{
     font-size: 16px;
     width: 80%;
-    color: white;
+    color: rgb(253, 236, 2);
   }
 
   .content button{
@@ -310,7 +305,7 @@ overflow: hidden;
       position: relative;
     margin: -8px auto; 
     
-      margin-right: -20px;  
+      margin-right: -36px;  
      top: -160px;
     }
   }
