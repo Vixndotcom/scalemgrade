@@ -11,7 +11,7 @@ const ImagesP = () => {
   <img src={desk}   />
     </Background>
 
-    <div className='flex md:w-[370px] sm:w-[370px] ss:w-[470px] mt-10 text-center align-items-center textt'>
+    <div className='flex md:w-[370px] sm:w-[370px] ss:w-[470px] md:mt-10 text-center align-items-center textt'>
        Earum vero placeat, quaerat sapiente ut minus praesentium odio ad eaque nostrum accusamus 
        quo architecto quae voluptate temporibus dolore doloremque, quas itaque sunt voluptas esse
         eligendi amet nihil mollitia. Repellendus perspiciatis illo consequuntur eos vero qui quos
