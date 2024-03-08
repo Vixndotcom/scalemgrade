@@ -287,7 +287,7 @@ overflow: hidden;
      border: .2px solid yellow; 
     height: 260px;
     border-radius: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
   }
   .images .box3{
     position: absolute;
@@ -328,6 +328,18 @@ overflow: hidden;
     }
   }
 
+  @media(max-width:440px){
+    .images .box1{
+   right: 60px;
+    }
+    .images .box2{
+     right: 264px;
+     
+    }
+    .images .box3{
+   right: 60px;
+     
+    }}
   @media(max-width:400px){
     .images .box1{
       width: 124px;
