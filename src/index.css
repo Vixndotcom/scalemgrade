@@ -58,7 +58,7 @@ margin-bottom: 24px ;}
     background-repeat: no-repeat;
      background-position: center; 
     background-color: #1100ff;
-     height: 110vh; 
+     height: 104vh; 
     width: 100vw; 
     background-position: center;
 
@@ -287,6 +287,7 @@ overflow: hidden;
      border: .2px solid yellow; 
     height: 260px;
     border-radius: 100px;
+    margin-bottom: 20px;
   }
   .images .box3{
     position: absolute;
