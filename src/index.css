@@ -64,9 +64,9 @@ margin-bottom: 24px ;}
     background-image: url(assets/hero.jpg);
     background-position: center;
     background-size: contain;
-    width: 94%;
+    width: 98%;
     background-repeat: no-repeat;
-    z-index: 9;
+    
   }
 }
 
