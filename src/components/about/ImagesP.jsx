@@ -11,14 +11,15 @@ const ImagesP = () => {
   <img src={desk}   />
     </Background>
 
-    <div className=' w-[370px] mt-10 textt'>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis est magni 
-blanditiis consequuntur, hic consectetur necessitatibus assumenda
- reprehenderit perspiciatis. Quae pariatur sapiente nam explicabo 
- minus. Temporibus, praesentium eos! Assumenda, veniam exercitationem 
- qui id dolor, maxime odit error, deleniti iste repellendus suscipit
-  voluptas perferendis quia minus laboriosam nesciunt culpa nostrum!
-   Perferendis quia magnam consectetur, esse aliquam itaque error? Numquam, atque illo!
+    <div className='flex w-[370px] mt-10 text-center p-6 textt'>
+ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, quibusdam, magni nihil \
+ voluptatibus iusto laborum consequatur excepturi recusandae dignissimos nesciunt a dolorem 
+ commodi ab ducimus distinctio molestiae cumque exercitationem necessitatibus odio sequi! Debitis 
+  
+ quibusdam ratione accusamus libero velit doloribus, fugiat fuga asperiores neque maiores id?
+
+
+ 
   </div>
 </Parallax>
 

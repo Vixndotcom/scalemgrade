@@ -17,7 +17,7 @@ const Hero = () => {
          <div className='mb-5 '>GRADES</div>
       </h1>
       </Dynamics>
-       <p >Navigate your learning <br /> experience seamlessly with success
+       <p className='text-yellow-400'>Navigate your learning <br /> experience seamlessly with success
          </p> 
          <Statement>
           <button className='font-bold' >
