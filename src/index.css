@@ -251,7 +251,8 @@ overflow: hidden;
   .content p{
     font-size: 28px;
     width: 100%;
-    color: rgb(253, 236, 2);
+    /* color: rgb(253, 236, 2); */
+    color: #fff;
   }
 
   .content button{
