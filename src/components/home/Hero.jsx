@@ -12,12 +12,12 @@ const Hero = () => {
      <div className='content z-[99] md:mt-20 mt-36 bg-paper' >
        
       <Dynamics>
-       <h1 className='content-inner-bold shadow-text md:mt-10 ' >
+       <h1 className='content-inner-bold md:mt-10 shadow-text' >
          <div className='mb-10'>ACE THOSE </div>
-         <div className='mb-5 '>GRADES</div>
+         <div className='mb-5 text-red-500'>GRADES</div>
       </h1>
       </Dynamics>
-       <p className='shadow-text leading-[40px]'>Navigate your learning  <br /> experience seamlessly with success
+       <p className='shadow-text leading-[40px]'>Navigate your learning  <br /> experience seamlessly <br /> with <span className='color'>success</span>
          </p> 
          <Statement>
           <button className='font-bold' >

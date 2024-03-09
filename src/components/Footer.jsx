@@ -11,7 +11,7 @@ const Footer = () => {
 
   return (
     <section className='mt-20 bottom-0 '>
-   <div className={`${styles.flexStart} flex md:flex-row flex-col bg-white rounded-[24px] `}>
+   <div className={`${styles.flexStart} flex md:flex-row flex-col  `}>
    
    <div className='mb-5'>
       
@@ -19,15 +19,16 @@ const Footer = () => {
           <div className={`${styles.paddingX} `}>
               <div className='black '>
                      <div className='mt-5 flex flex-row'>
-                      <img src={icon} className='w-[12%]' />
-                  <h1 className='text-[28px] font-bold mx-2 mt-2 '>Scale My Grade </h1>  
+                      <img src={icon} className='w-[56px] h-[60px]' />
+                  <h1 className='text-[28px] font-bold mx-2 mt-2 text-white '>Scale My Grade </h1>  
                  
                   </div>
-                  <p className='text-[20px] mt-5 mb-5 leading-[36px]'>Unburdening your academic load one assessment at a time</p>
+                  <p className='text-[20px] mt-5 mb-10 leading-[36px] text-white'>Unburdening your academic load one assessment at a time</p>
               </div>
               <div className='mb-10 md:mb-10'>
-                   <h1 className='text-[28px] font-semibold '>Lets work together</h1>
-                   <p className=' text-black  font-semibold mt-2 color text-[20px] hover:text-yellow-500    
+              <h1 className='text-[28px] w-[450px] text-white font-bold mt-5 border-t-[1px] pt-2 pb-2 border-t-[white] border-b-[1px]'>Contact</h1> 
+                   <p className='text-[20px] font-normal  text-white mt-10 '>Lets work together</p>
+                   <p className=' text-black  font-semibold mt-5 color text-[20px] hover:text-yellow-500    
              cursor-pointer'  >
         
             <a href={`mailto:${emailAddress}`}>{emailAddress}</a>
@@ -44,7 +45,7 @@ const Footer = () => {
           {/* second card */}
           <div className={`${styles.paddingX} `}>
               <div className='mb-5 '>
-                  <h1 className='text-[28px] font-bold mt-5'>Useful Links</h1>  
+                  <h1 className='text-[28px] w-[450px] text-white font-bold mt-5 border-t-[1px] pt-2 pb-2 border-t-[white] border-b-[1px]'>Useful Links</h1>  
                   <ul className='mt-5 flex flex-col mb-5 cursor-pointer font-semibold'>
                   <Link  className='text-[20px] mt-5 hover:text-yellow-500 color' to='/'>Home </Link>
                   <Link  className='text-[20px] mt-5 hover:text-yellow-500 color' to='/about'>About </Link>
