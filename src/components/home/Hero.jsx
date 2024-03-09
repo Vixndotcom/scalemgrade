@@ -20,7 +20,7 @@ const Hero = () => {
        <p className='shadow-text leading-[40px]'>Navigate your learning  <br /> experience seamlessly <br /> with <span className='color'>success</span>
          </p> 
          <Statement>
-          <button className='font-bold' >
+          <button className='font-bold shadow-text' >
        <Link to ='/about'>Explore <span><img src={arrow} alt="" className='object contain w-[25%] mx-8 '/></span></Link>    
           </button> 
           </Statement>

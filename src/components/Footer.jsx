@@ -16,7 +16,7 @@ const Footer = () => {
    <div className='mb-5'>
       
           {/* first card */}
-          <div className={`${styles.paddingX} `}>
+          <div className='sm:px-8 px-2'>
               <div className='black '>
                      <div className='mt-5 flex flex-row'>
                       <img src={icon} className='w-[56px] h-[60px]' />
@@ -43,7 +43,7 @@ const Footer = () => {
    <div className='  mb-5 md:mx-5'>
       
           {/* second card */}
-          <div className={`${styles.paddingX} `}>
+          <div className='sm:px-8 px-2'>
               <div className='mb-5 '>
                   <h1 className='text-[28px] w-[320px] text-white font-bold mt-5 border-t-[1px] pt-2 pb-2 border-t-[white] border-b-[1px]'>Useful Links</h1>  
                   <ul className='mt-5 flex flex-col mb-5 cursor-pointer font-semibold'>
