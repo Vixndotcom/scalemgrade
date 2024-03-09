@@ -19,17 +19,12 @@ const About = () => {
       
     </div>
 
-   < div className={` ${styles.paddingX} ${styles.flexStart}  `}>
+   
       
-      <div className={`${styles.boxWidth}  `}> 
- 
-
-
+      <div > 
       < ImagesP />
-  
-        
-      </div>
-      </div>
+     </div>
+      
  
  < div className={` ${styles.paddingX}  ${styles.flexStart}  `}>
       

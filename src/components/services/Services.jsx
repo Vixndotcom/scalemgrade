@@ -32,16 +32,16 @@ const Services = () => {
     </div> 
 
 
-    < div className={` ${styles.paddingX} ${styles.flexStart}  `}>
+    
       
-      <div className={`${styles.boxWidth}  `}> 
+      <div > 
  
 
 
       < ImageS />
   
         
-      </div>
+   
       </div>
 
 
