@@ -6,7 +6,7 @@ import { card, desk } from '../../assets'
 const ImagesP = () => {
   return (
     <Parallax strength={600} height={800} >
-    <Background  className='mt-20 cell p-4' style={{width:'100vw'}}  >
+    <Background  className='mt-20 cell p-1' style={{width:'100vw'}}  >
       
   <img src={desk}   />
     </Background>
@@ -15,7 +15,7 @@ const ImagesP = () => {
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos veritatis numquam hic, esse itaque nulla cupiditate
      qui, debitis libero ratione atque cumque deserunt ullam. Cupiditate voluptate exercitationem ad aperiam esse et
       quia autem similique vel labore quae dicta suscipit sint, quas ab. Quod asperiores illo eveniet, fugiat explicabo 
-      fugit soluta quis natus recusandae quibusdam vero at accusantium quos minima id ratione autem sequi 
+      fugit soluta quis natus recusandae 
    
 
 
