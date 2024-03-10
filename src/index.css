@@ -8,14 +8,10 @@ body{
     padding: 0;
     margin: 0;
 }
-.hero{
-    /* height:100vh ; */
-      /* visibility: hidden;   */
 
-    }
+    
 .container{
     width:1440px ;
-    /* min-width: 1440px ; */
     margin: 0 auto;
 }
 .hero-inner{
@@ -74,16 +70,6 @@ margin-bottom: 24px ;}
     
   }
 }
-
-/* @media(max-width:820px){
-.bg-hero{
-    margin: 0;
-    padding: 0;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-}
-} */
 
 
 
@@ -200,7 +186,7 @@ overflow: hidden;
     align-items: left;
     justify-content: center;
     /* width: 30vw; */
-    height:110vh;
+    height:104vh;
     margin-left: 60px;
     margin-right: 50px;
     flex-direction: column;
@@ -215,6 +201,15 @@ overflow: hidden;
 
 }
 
+
+@media(max-width:440px){
+  .content{
+    margin-left:30px;
+    margin-top: -84px;
+  }
+}
+
+
 @media(max-width:380px){
   .content{
     margin-top: -72px;
@@ -222,12 +217,6 @@ overflow: hidden;
   }
 }
 
-
-  @media(max-width:440px){
-    .content{
-      margin-left:30px;
-    }
-  }
 
 
   .content h1{
@@ -239,7 +228,7 @@ overflow: hidden;
 
   @media(max-width:440px){
     .content h1{
-      font-size: 32px;
+      font-size: 36px;
     }
   }
 
@@ -280,7 +269,7 @@ overflow: hidden;
   }
   .images .box2{
     position: absolute;
-    top: 300px;
+    top: 310px;
     right: 284px;
     background: url(assets/boy.jpg) no-repeat 50% 50%;
     background-size: cover;
@@ -292,7 +281,7 @@ overflow: hidden;
   }
   .images .box3{
     position: absolute;
-    top: 400px;
+    top: 408px;
     right: 80px;
     background: url(assets/girl.jpg) no-repeat 50% 50%;
     background-size: cover;
@@ -702,17 +691,8 @@ background: linear-gradient(90.13deg, #F40606 0.08%, #1100FF 99.89%);
 
 /* .....................about ............................ */
 
-.about-img{
-  
-}
 
-/* about */
 
-/* position: absolute;
-width: 720px;
-height: 323px;
-left: 422px;
-top: 314px; */
 
 .imagess{
 /* position: relative; */
