@@ -424,9 +424,10 @@ overflow: hidden;
   -webkit-text-stroke: .4px #00004d;
 }
   .cell{
-     background-color: yellow;
+
   width: 100vw;
   height: 100vh;
+  
   }
 
   .bg-color{
@@ -698,3 +699,110 @@ background: linear-gradient(90.13deg, #F40606 0.08%, #1100FF 99.89%);
     height: 1200px;
   }
 }
+
+/* .....................about ............................ */
+
+.about-img{
+  
+}
+
+/* about */
+
+/* position: absolute;
+width: 720px;
+height: 323px;
+left: 422px;
+top: 314px; */
+
+.imagess{
+/* position: relative; */
+display: flex;
+align-items: center;
+justify-content: center;
+/* position: absolute; */
+width: 400px;
+margin-top: 36px;
+/* background-image: url(assets/analytics_8956264.png); */
+
+}
+.about-img{
+  background-image: url(assets/pexels-anna-nekrashevich-6801648.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Ellipse 14 */
+.imagess .about1{
+position: absolute;
+width: 240px;
+height: 200px;
+left: 42%;
+top: 437px;
+border-radius:80px;
+background: url(assets/desk.jpg);
+background-size: cover;}
+
+
+/* Ellipse 15 */
+.imagess .about2{
+position: absolute;
+width: 240px;
+height: 200px;
+left: 68%;
+top: 537px;
+border-radius: 80px;
+background: url(assets/young-student-working-assignment.jpg);
+background-size: cover;
+}
+
+
+/* Ellipse 16 */
+.imagess .about3{
+position: absolute;
+width: 200px;
+height: 160px;
+left: 20%;
+top: 517px;
+border-radius: 66px;
+  background: url(assets/pexel.jpg);
+  background-size: cover;
+}
+@media(max-width:768px){
+  .imagess .about1{
+    top:40%;
+    left: 35%;
+  }
+  .imagess .about2{
+    top:56%;
+    left: 60%;
+  }
+  .imagess .about3{
+    top:60%;
+    left: 20%;
+  }
+}
+
+@media(max-width:440px){
+  .imagess .about1{
+    top:337px;
+    left: 30%;
+    width: 160px;
+    height: 120px;
+  }
+  .imagess .about2{
+    top:457px;
+    left: 56%;
+    width: 160px;
+    height: 120px;
+  }
+  .imagess .about3{
+    top:457px;
+    left: 10%;
+    width: 132px;
+    height: 120px;
+  }
+}
+
+
+/* .....................about ............................ */
