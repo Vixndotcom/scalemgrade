@@ -54,7 +54,7 @@ margin-bottom: 24px ;}
     background-repeat: no-repeat;
      background-position: center; 
     background-color: #1100ff;
-     height: 100vh; 
+     height: 104vh; 
     width: 100vw; 
     background-position: center;
 
@@ -186,7 +186,7 @@ overflow: hidden;
     align-items: left;
     justify-content: center;
     /* width: 30vw; */
-    height:104vh;
+    height:100vh;
     margin-left: 60px;
     margin-right: 50px;
     flex-direction: column;
@@ -228,7 +228,7 @@ overflow: hidden;
 
   @media(max-width:440px){
     .content h1{
-      font-size: 36px;
+      font-size: 40px;
     }
   }
 
@@ -269,7 +269,7 @@ overflow: hidden;
   }
   .images .box2{
     position: absolute;
-    top: 310px;
+    top: 320px;
     right: 284px;
     background: url(assets/boy.jpg) no-repeat 50% 50%;
     background-size: cover;
@@ -281,7 +281,7 @@ overflow: hidden;
   }
   .images .box3{
     position: absolute;
-    top: 408px;
+    top: 400px;
     right: 80px;
     background: url(assets/girl.jpg) no-repeat 50% 50%;
     background-size: cover;
