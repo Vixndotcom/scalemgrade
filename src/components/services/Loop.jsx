@@ -2,7 +2,7 @@ import React from 'react'
 
 const Loop = () => {
   return (
-    <div className='text-[32px] bg-loop font-semibold text-white scroll-text'>
+    <div className='text-[28px]  font-semibold text-black scroll-text'>
         <p>
             Let's make things Easier
         </p>
@@ -13,19 +13,18 @@ const Loop = () => {
         <p>
             Score Higher
         </p>
-        <p>
-            Score Higher
-        </p>
-        {/* <p>
+      
+        <p className='textt'>
             Let's make things Easier
         </p>
         <p>
-            Optimise your Time
+            Score Higher
         </p>
         
         <p>
             Score Higher
-        </p> */}
+        </p>
+      
         
     </div>
   )

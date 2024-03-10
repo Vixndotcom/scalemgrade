@@ -26,7 +26,7 @@ const Footer = () => {
                   <p className='text-[20px] mt-5 mb-10 leading-[36px] text-white'>Unburdening your academic load one assessment at a time</p>
               </div>
               <div className='mb-10 md:mb-10'>
-              <h1 className='text-[28px] w-[320px] text-white font-bold mt-5 border-t-[1px] pt-2 pb-2 border-t-[white] border-b-[1px]'>Contact</h1> 
+              <h1 className='text-[28px] w-[320px] text-white font-bold mt-5  pt-2 pb-2 border-b-[1px]'>Contact</h1> 
                    <p className='text-[20px] font-normal  text-white mt-10 '>Lets work together</p>
                    <p className=' text-black  font-semibold mt-5 color text-[20px] hover:text-yellow-500    
              cursor-pointer'  >
@@ -45,7 +45,7 @@ const Footer = () => {
           {/* second card */}
           <div className='sm:px-8 px-2'>
               <div className='mb-5 '>
-                  <h1 className='text-[28px] w-[320px] text-white font-bold mt-5 border-t-[1px] pt-2 pb-2 border-t-[white] border-b-[1px]'>Useful Links</h1>  
+                  <h1 className='text-[28px] w-[320px] text-white font-bold mt-5 pt-2 pb-2  border-b-[1px]'>Useful Links</h1>  
                   <ul className='mt-5 flex flex-col mb-5 cursor-pointer font-semibold'>
                   <Link  className='text-[20px] mt-5 hover:text-yellow-500 color' to='/'>Home </Link>
                   <Link  className='text-[20px] mt-5 hover:text-yellow-500 color' to='/about'>About </Link>
