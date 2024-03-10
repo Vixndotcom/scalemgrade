@@ -3,7 +3,7 @@ import DynamicLeft from '../DynamicLeft'
 
 function ImagesP () {
   return (
-    <section className='mb-4 h-[360px]'>
+    <section className='mb-4 h-[400px] about-img'>
   
    
         <div className='imagess  '> 

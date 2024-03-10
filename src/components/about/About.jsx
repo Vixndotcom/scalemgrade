@@ -21,7 +21,7 @@ const About = () => {
 
    
       
-      <div className='about-img'> 
+      <div className='bg-nav'> 
       < ImagesP />
      </div>
       
