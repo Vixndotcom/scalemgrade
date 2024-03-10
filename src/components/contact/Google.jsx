@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styles from '../../style'
-import { close, menu } from '../../assets';
+import { cancel, close, menu, open } from '../../assets';
 import Statement from '../services/Statement';
 
 const Google = () => {
@@ -31,7 +31,7 @@ const Google = () => {
 
  
     <button onClick={toggleForm} className='text-white font-normal text-[20px] flex'> <span className='mt-4 mr-4'>Fill out the form below </span>
-    <img src={showForm ? close : menu } className='w-[16%]' />
+    <img src={showForm ? cancel : open } className='w-[8%] mt-4' />
     </button> 
  
     

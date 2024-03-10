@@ -30,9 +30,13 @@ import phonee from './phonee.png'
 import time from './time.png'
 import task from './task.png'
 import best from './best.png'
+import cancel from './cancel.png'
+import open from './open.png'
 
 
 export{
+    cancel,
+    open,
     time, 
     task, 
     best,
