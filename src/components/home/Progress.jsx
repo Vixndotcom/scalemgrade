@@ -11,7 +11,7 @@ useEffect(() => {
     } else {
       clearInterval(interval);
     }
-  }, 30);
+  }, 99);
   return() => clearInterval(interval);
 }, [count])
 

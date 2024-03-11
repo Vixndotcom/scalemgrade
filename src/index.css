@@ -536,7 +536,7 @@ justify-content: center;
    stroke: url(#GradientColor);
     stroke-dasharray: 436;
       stroke-dashoffset: 436;   
-       animation: anim 5s linear forwards; 
+       animation: anim 10s linear infinite; 
   }
 
 svg{
