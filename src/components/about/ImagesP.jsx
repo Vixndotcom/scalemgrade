@@ -12,7 +12,7 @@ function ImagesP () {
     
          
     <Parallax strength={600} height={800} >
-    <Background  className='mt-20 cell rounded-b-[8px]' style={{width:'96vw'}}  >
+    <Background  className='mt-5 cell rounded-b-[8px]' style={{width:'96vw'}}  >
       
   <img src={desk}   />
     </Background>
