@@ -7,7 +7,7 @@ import Cardd from './Cardd';
 const ImagesP = () => {
     const containerStyle = {
         height: '30vh',
-        width: '110vw',
+        width: '1000px',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
