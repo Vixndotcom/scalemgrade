@@ -22,7 +22,7 @@ const handleScroll = () => {
 
  return(
     <div ref={parallaxRef} className='parallax-contain'>
-        <div className='para-textt' style={{ transform: `translateY(-${scrollPosition * 0.1}px)` }}>
+        <div className='para-textt' style={{ transform: `translateY(-${scrollPosition * 0.2}px)` }}>
     
            <p className='text-white w-[312px] text-center   text-[20px] leading-[40px] '>
            <span className='text-[60px] text-yellow-500  '>"</span><br /> With a commitment to excellence, we offer a supportive environment where challenges are met with expertise, 
