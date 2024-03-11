@@ -597,7 +597,7 @@ svg{
   background: linear-gradient(116.51deg, rgba(252, 221, 120, 0.54) -13.55%, 
   rgba(253, 195, 208, 0.22) -13.55%, rgba(245, 241, 40, 0.27) 137.08%);
   box-shadow: 0px 0px 4px rgba(254, 254, 255, 0.25);
-  backdrop-filter: blur(16px);
+  backdrop-filter: blur(14px);
 }
 
 
