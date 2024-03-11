@@ -16,6 +16,7 @@ import group from './group.jpg';
 import grad from './grad.jpg';
 import card from './card.jpg';
 import cardd from './cardd.png';
+import carddd from './cardd.jpg';
 import quality from './quality.png';
 import team from './team.png';
 import data from './data.png'
@@ -32,9 +33,14 @@ import task from './task.png'
 import best from './best.png'
 import cancel from './cancel.png'
 import open from './open.png'
+import success from './sucess.png'
+import lamp from './lamp.jpg'
 
 
 export{
+    lamp,
+    carddd,
+    success,
     cancel,
     open,
     time, 

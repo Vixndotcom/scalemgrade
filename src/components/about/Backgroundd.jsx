@@ -1,10 +1,11 @@
 import React from 'react'
 import styles, { layout } from '../../style'
 import Paragraph from '../Paragraph'
+import { lamp } from '../../assets'
 
 const Backgroundd = () => {
   return (
-    <section id='about'  className={`flex md:flex-row flex-col mt-10    ${styles.paddingY}  mb-5`}>
+    <section id='about'  className={`flex md:flex-row flex-col mt-20    ${styles.paddingY}  mb-5`}>
  <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 px-4 sm:px-16 `}>
 
 
@@ -16,6 +17,7 @@ const Backgroundd = () => {
   Background
   </h2> 
 
+
   </Paragraph>
   </div>
 <Paragraph >
@@ -26,7 +28,9 @@ const Backgroundd = () => {
 
   </Paragraph>
 
-
+{/* <div>
+  <img src={lamp} className='w-[50%]' />
+</div> */}
 
 {/* purpose */}
 

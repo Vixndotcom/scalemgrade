@@ -1,19 +1,16 @@
 import React from 'react'
 import DynamicLeft from '../DynamicLeft'
+import { carddd, desk, lamp, student } from '../../assets'
+import Cardd from './Cardd'
 
 function ImagesP () {
   return (
-    <section className='mb-4 h-[400px] about-img'>
+    <section className='  '>
   
    
-        <div className='imagess  '> 
-  
-       <div className='about1 shadow-text'></div>
-        
-       <div className='about2 shadow-text'></div>
-       
-       
-       <div className='about3 mb-2 shadow-text'></div>
+        <div className=''> 
+     <img src={desk} alt="" className='w-[96vw] mx-auto rounded-b-[8px]' />
+     
       
      
        

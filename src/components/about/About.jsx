@@ -6,6 +6,7 @@ import Backgroundd from './Backgroundd'
 import Approach from './Approach'
 import Choice from './Choice'
 import Glass from '../home/Glass'
+import Cardd from './Cardd'
 
 
 const About = () => {
@@ -21,8 +22,9 @@ const About = () => {
 
    
       
-      <div className='bg-nav'> 
+      <div className='bg-white'> 
       < ImagesP />
+      < Cardd />
      </div>
       
  
