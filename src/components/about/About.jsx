@@ -45,7 +45,7 @@ const About = () => {
 </div> 
 
 
-< div className={`  ${styles.flexStart} bg-navy mt-10`}>
+< div className={`  ${styles.flexStart} bg-navy mt-10 mb-5`}>
       
       <div className={`${styles.boxWidth}  `}> 
        <h1 className='text-white text-center text-[36px] mt-10 mb-5'>Our Approach </h1>
@@ -69,7 +69,7 @@ const About = () => {
       
       <div className={`${styles.boxWidth}  `}> 
       <div >
-        <h2 className=' text-yellow-400 text-center text-[36px] mt-5 mb-5 font-medium '>
+        <h2 className=' text-yellow-400 text-center text-[36px] mt-10 mb-10 font-medium '>
        What Sets Us Apart
        </h2>
 
