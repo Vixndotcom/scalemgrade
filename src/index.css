@@ -97,7 +97,7 @@ margin-bottom: 24px ;}
     content: '';
     width: 4px;
     height: 56px;
-    background-color: rgb(255, 217, 0);
+    background-color: #e40227;
     top: 50%;
     left: -8px; 
 }
@@ -110,7 +110,7 @@ margin-bottom: 24px ;}
     content: '';
     width: 4px;
     height: 56px;
-    background-color: rgb(255, 217, 0);
+    background-color: #e40227;
     top: 50%;
     left: -8px; 
 }
