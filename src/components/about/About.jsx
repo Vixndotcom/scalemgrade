@@ -87,7 +87,7 @@ const About = () => {
 
 
 
- < div className={`  ${styles.flexStart} bg-nav `}>
+ < div className={`  ${styles.flexStart} bg-nav mt-10`}>
       
 <div className={`${styles.boxWidth}  `}> 
 
