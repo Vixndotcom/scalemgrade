@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../../style'
-import { arrow, cardd, expert, } from '../../assets';
+import { arrow, cardd, expert, whatsapp, } from '../../assets';
 import Statement from '../services/Statement';
 
 const Email = () => {
@@ -33,7 +33,7 @@ const Email = () => {
 
       <p className={`${styles.paragraph} text-white light font-normal text-[20px] p-4 mx-1 cursor-pointer`} onClick={openWhatsapp} >
         
-       Chat on Whatsapp <span><img src={cardd} alt="" className='w-[8%]' onClick={openWhatsapp} /></span>
+       Chat on Whatsapp <span><img src={whatsapp} alt="" className='w-[8%]' onClick={openWhatsapp} /></span>
       </p>
       </Statement>
 

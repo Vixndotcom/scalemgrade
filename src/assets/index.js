@@ -10,13 +10,14 @@ import asian from './asian.jpg';
 import growth from './growth.png';
 import desk from './desk.jpg';
 import deskk from './deskk.jpg';
+import cardd from './cardd.jpg';
 import cv from './cv.jpg';
 import expert from './expert.png';
 import group from './group.jpg';
 import grad from './grad.jpg';
 import card from './card.jpg';
-import cardd from './cardd.png';
-import carddd from './cardd.jpg';
+import whatsapp from './whatsapp.png';
+
 import quality from './quality.png';
 import team from './team.png';
 import data from './data.png'
@@ -39,15 +40,15 @@ import lamp from './lamp.jpg'
 
 export{
     lamp,
-    carddd,
+    deskk,
     success,
     cancel,
     open,
     time, 
     task, 
     best,
+    whatsapp,
     cardd,
-    deskk,
     expert,
     grad,
     group,

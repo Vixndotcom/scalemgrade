@@ -10,7 +10,7 @@ const Choice = () => {
    < Statement >
     <section className=' justify-content-center align-items-center text-center mt-10 mb-10'>
      < div className=' '>
-      <h2 className=' text-white text-center text-[32px] mt-5 mb-5  '>
+      <h2 className=' text-white text-center text-[36px] mt-5 mb-5  '>
        Why Choose Us
        </h2>
        

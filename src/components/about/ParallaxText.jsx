@@ -21,7 +21,7 @@ const handleScroll = () => {
      }, []);
 
  return(
-    <div ref={parallaxRef} className='parallax-contain'>
+    <div ref={parallaxRef} className='parallax-contain '>
         <div className='para-textt' style={{ transform: `translateY(-${scrollPosition * 0.2}px)` }}>
     
            <p className='text-white w-[312px] text-center   text-[20px] leading-[40px] '>

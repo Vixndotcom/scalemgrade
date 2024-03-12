@@ -1,9 +1,10 @@
 import React from 'react'
 import { best,  task, time } from '../../assets'
 import styles from '../../style'
-import Glass from './Glass'
 
 import Statementt from '../Statementt'
+
+
 const ImageH = () => {
 
   return (

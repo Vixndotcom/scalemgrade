@@ -114,7 +114,7 @@ const Services = () => {
 
  < div className={` ${styles.paddingX} ${styles.flexStart} bg-nav `}>
 <div className={`${styles.boxWidth}  `}> 
-<h1 className='text-white text-center text-[32px] mt-10 mb-5  '> Personal Statement </h1>
+<h1 className='text-white text-center text-[36px] mt-10 mb-5  '> Personal Statement </h1>
 
 < Stat/>
 
