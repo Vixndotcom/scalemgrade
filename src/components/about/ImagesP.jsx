@@ -58,7 +58,7 @@ Unburdening your academic workload one assessment step at a time
 
   <img src={analyse} className='w-[25%] ' />
   <h1 className='text-[28px] font-semibold text-white text-start'>
-    Join Us on the Learning Journey
+    Join Us on the <br />Learning Journey
   </h1>
 
   
