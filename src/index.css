@@ -594,10 +594,16 @@ svg{
   backdrop-filter: blur(10px);
 }
 .about-morph{
-  background: linear-gradient(116.51deg, rgba(252, 221, 120, 0.54) -13.55%, 
-  rgba(253, 195, 208, 0.22) -13.55%, rgba(245, 241, 40, 0.27) 137.08%);
+  background: linear-gradient(116.51deg, rgba(252, 120, 182, 0.54) -13.55%, 
+  rgba(159, 127, 247, 0.22) -13.55%, rgba(245, 40, 160, 0.27) 137.08%);
   box-shadow: 0px 0px 4px rgba(254, 254, 255, 0.25);
   backdrop-filter: blur(8px);
+}
+.bg-morph{
+  background: linear-gradient(116.51deg, rgba(247, 246, 245, 0.54) -13.55%, 
+  rgba(253, 195, 208, 0.22) -13.55%, rgba(40, 231, 245, 0.27) 137.08%);
+  box-shadow: 0px 0px 4px rgba(50, 50, 236, 0.25);
+  backdrop-filter: blur(2px);
 }
 
 
@@ -699,7 +705,7 @@ background: linear-gradient(90.13deg, #F40606 0.08%, #1100FF 99.89%);
 
 .about-card{
   
-  margin-top: -120px;
+  margin-top: -100px;
   width: 80vw;
   display: flex;
   align-items: center;

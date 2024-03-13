@@ -31,7 +31,7 @@ const SetUs = () => {
            <div className=' justify-content-center w-[280px] h-[240px] glass-morph mt-4 rounded-[16px]'>
           <div className='mx-auto p-4'>
            {/* <img src={time} alt="" className='w-[40%] mx-auto' />  */}
-           <h1 className='text-yellow-500  text-[28px] sm:text-[22px] mt-4  '>Expert Guidance</h1>
+           <h1 className='text-yellow-500  text-[28px] sm:text-[22px] mt-4  '>Professional Guidance</h1>
           <p className='mt-4 text-[20px] text-white shadow-text'>Access to experienced educators</p>
         </div>
         </div>

@@ -22,11 +22,22 @@ const About = () => {
     </div>
 
    
+    < div className={` ${styles.paddingX} ${styles.flexStart} bg-white `}>
       
-      <div className='bg-white'> 
+      <div className={`${styles.boxWidth}  `}> 
+      
+      
+      
       < ImagesP />
       < Cardd />
-     </div>
+
+      
+      
+       
+       
+        
+      </div>
+      </div> 
       
  
  < div className={` ${styles.paddingX}  ${styles.flexStart}  `}>

@@ -35,10 +35,14 @@ import best from './best.png'
 import cancel from './cancel.png'
 import open from './open.png'
 import success from './sucess.png'
+import analyse from './analyse.png'
 import lamp from './lamp.jpg'
+import babe from './babe.jpg'
 
 
 export{
+    babe,
+    analyse,
     lamp,
     deskk,
     success,
