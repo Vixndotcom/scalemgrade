@@ -57,7 +57,7 @@ Unburdening your academic workload one assessment step at a time
   <div style={{width: '470px', maxWidth: '470px',display:'flex', height: 'auto', marginRight:'auto', marginLeft:'auto'}} >
 
   <img src={analyse} className='w-[25%] ' />
-  <h1 className='text-[28px] font-semibold text-white text-start mt-4 capitalise'>
+  <h1 className='text-[24px] font-semibold text-white text-start mt-4 capitalise'>
     JOIN US ON THE <br />LEARNING JOURNEY
   </h1>
 
