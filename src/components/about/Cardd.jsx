@@ -9,7 +9,7 @@ const Cardd = () => {
     <section className={`${styles.flexCenter} mb-20 flex flex-col mt-10 `}>
 
       <DynamicLeft>
-          <div className=' text-center about-card   p-2  about-morph rounded-t-[20px] rounded-b-[4px] rounded-b-[6px] h-[100px]
+          <div className=' text-center about-card   p-2  about-morph rounded-t-[8px] rounded-b-[4px]  h-[100px]
          border-[1px]  mx-auto'>
           
            <h1 className='text-[28px] font-semibold p-4 shadow-text text-white mx-auto '>
