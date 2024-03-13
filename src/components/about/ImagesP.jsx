@@ -40,7 +40,7 @@ const Welcome = () => {
     We believe in the  <br /> <span className='color'>Transformative Power </span> of Education
     </h2>
     <p className={`${styles.paragraph} mt-5 text-black max-w-[470px]`}>
-unburdening your Academic burden assessment step at a time 
+Unburdening your academic workload one assessment step at a time 
     </p> 
       {/* <button className='p-4 get-started cursor-pointer mt-10'>
         <Link to ='/contact'>Get started</Link>
@@ -57,7 +57,7 @@ unburdening your Academic burden assessment step at a time
   <div style={{width: '470px', maxWidth: '470px',display:'flex', height: 'auto', marginRight:'auto', marginLeft:'auto'}} >
 
   <img src={analyse} className='w-[25%] ' />
-  <h1 className='text-[36px] font-semibold text-white text-start'>
+  <h1 className='text-[28px] font-semibold text-white text-start'>
     Join Us on the Learning Journey
   </h1>
 

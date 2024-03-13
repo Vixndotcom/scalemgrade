@@ -9,10 +9,10 @@ const Cardd = () => {
     <section className={`${styles.flexCenter} mb-20 flex flex-col mt-10 `}>
 
       <DynamicLeft>
-          <div className=' text-center about-card   p-2  about-morph rounded-t-[20px] rounded-b-[8px] rounded-b-[12px] h-[120px]
+          <div className=' text-center about-card   p-2  about-morph rounded-t-[20px] rounded-b-[4px] rounded-b-[8px] h-[100px]
          border-[1px]  mx-auto'>
           
-           <h1 className='text-[32px] font-semibold p-4 shadow-text text-white mx-auto '>
+           <h1 className='text-[28px] font-semibold p-4 shadow-text text-white mx-auto '>
              Your Academics in Safe Hands
             </h1> 
          
@@ -22,7 +22,7 @@ const Cardd = () => {
          <div className='flex flex-col'>
         
           <div className='about-img '>
-            <img src={babe} alt="" className='w-[70%] mx-auto rounded-[8px]  '/>
+            <img src={babe} alt="" className='w-[80%] mx-auto rounded-[8px]  '/>
           </div>
       
       
