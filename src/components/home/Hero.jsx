@@ -14,7 +14,7 @@ const Hero = () => {
       <Dynamics>
        <h1 className='content-inner-bold md:mt-10 shadow-text' >
          <div className='mb-10'>ACE THOSE </div>
-         <div className='mb-5 text-red-500'>GRADES</div>
+         <div className='mb-5 red'>GRADES</div>
       </h1>
       </Dynamics>
        <p className='shadow-text leading-[40px]'>Navigate your learning  <br /> experience seamlessly <br /> with <span className='color font-medium'>success</span>

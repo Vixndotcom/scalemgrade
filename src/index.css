@@ -114,7 +114,9 @@ margin-bottom: 24px ;}
     top: 50%;
     left: -8px; 
 }
-
+.red{
+  color: #e40227;
+}
 .hero-images{
     width: 50%;
     height: 100vh;
