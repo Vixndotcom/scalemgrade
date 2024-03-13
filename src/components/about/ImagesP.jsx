@@ -40,7 +40,7 @@ const Welcome = () => {
     We believe in the  <br /> <span className='color'>Transformative Power </span> of Education
     </h2>
     <p className={`${styles.paragraph} mt-5 text-black max-w-[470px]`}>
-Unburdening your academic workload one assessment step at a time 
+Unburdening your academic workload one assessment at a time.
     </p> 
       {/* <button className='p-4 get-started cursor-pointer mt-10'>
         <Link to ='/contact'>Get started</Link>
