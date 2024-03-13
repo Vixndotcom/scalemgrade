@@ -53,11 +53,11 @@ Unburdening your academic workload one assessment step at a time
 
   <div className={`${layout.sectionImg}`}>
       <Parallax bgImage={desk} strength={500}>
-  <div style={{height: '300px', width: '100vw' , display:'flex', alignItems: 'center', justifyContent: 'center'}} className='bg-morph'>
-  <div style={{width: '470px', maxWidth: '470px',display:'flex', height: 'auto', marginRight:'auto', marginLeft:'auto'}} >
+  <div style={{height: '300px',  display:'flex', alignItems: 'center', justifyContent: 'center'}} className='w-screen'>
+  <div style={{width: '500px', maxWidth: '500px',display:'flex', height: 'auto', marginRight:'auto', marginLeft:'auto'}} >
 
   <img src={analyse} className='w-[25%] ' />
-  <h1 className='text-[24px] font-semibold text-white text-start mt-4 capitalise'>
+  <h1 className='text-[22px] font-semibold text-white text-start mt-6 capitalise'>
     JOIN US ON THE <br />LEARNING JOURNEY
   </h1>
 
