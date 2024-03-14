@@ -11,6 +11,8 @@ import DynamicLeft from '../DynamicLeft'
 import Stat from './Stat'
 import ImageS from './ImageS'
 import Loop from './Loop'
+import Pbar from './Pbar'
+import ProgressBarr from './ProgressBarr'
 
 
 const Services = () => {
@@ -111,6 +113,16 @@ const Services = () => {
       </div> 
 
       </DynamicLeft>
+
+      < div className={` ${styles.paddingX} ${styles.flexStart} h-[480px] bg-yellow-400 mb-10`}>
+        <div className={`${styles.boxWidth}  `}> 
+ 
+      < ProgressBarr/>
+    
+      </div>
+      </div> 
+
+
 
  < div className={` ${styles.paddingX} ${styles.flexStart} bg-nav `}>
 <div className={`${styles.boxWidth}  `}> 
