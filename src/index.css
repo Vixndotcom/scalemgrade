@@ -727,7 +727,7 @@ background: linear-gradient(90.13deg, #F40606 0.08%, #1100FF 99.89%);
 
 /* pbar............................ */
 .progressbar{
-  width: 400px;
+  width: 350px;
   height: 20px;
   background-color: #fff;
   border-radius: 10px;
@@ -735,7 +735,7 @@ background: linear-gradient(90.13deg, #F40606 0.08%, #1100FF 99.89%);
 }
 @media(min-width:768px){
   .progressbar{
-    width: 700px;
+    width: 600px;
   }
 }
 .progresss{
