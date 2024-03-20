@@ -34,7 +34,7 @@ const Welcome = () => {
 
 
 
-{/* <div className='parallax-text' style={{transform: `translateY(-${scrollPosition * 0.2}px)`}}> */}
+
 <div className='parallax-text' style={parallaxStyle}>
     <h2 className='text-[36px] text-black font-bold '>
     We believe in the  <br /> <span className='color'>Transformative Power </span> of Education
@@ -53,7 +53,7 @@ Unburdening your academic workload one assessment at a time.
 
   <div className={`${layout.sectionImg}`}>
       <Parallax bgImage={desk} strength={500}>
-  <div style={{height: '300px',  display:'flex', alignItems: 'center', justifyContent: 'center'}} className='w-screen'>
+  <div style={{height: '300px',  display:'flex', alignItems: 'center', justifyContent: 'center'}} className='w-screen rounded-b-[12px]'>
   <div style={{width: '500px', maxWidth: '500px',display:'flex', height: 'auto', marginRight:'auto', marginLeft:'auto'}} >
 
   <img src={analyse} className='w-[25%] ' />
