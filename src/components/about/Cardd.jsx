@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import styles from '../../style'
 import DynamicLeft from '../Dynamics'
-import { babe, desk, lamp, success } from '../../assets'
+import { babe, baby, desk, lamp, success } from '../../assets'
 import { animated, useSpring, config} from 'react-spring'
 
 const Cardd = () => {
@@ -23,7 +23,7 @@ const zoomProps = useSpring ({
 return(
   <animated.div style={{overflow:'hidden', ...swipeProps }}>
     <animated.img
-    src={babe}
+    src={baby}
     style={{...zoomProps , borderRadiusBottom:'24px'}}
     onLoad={() => setLoaded(true)}
      />

@@ -38,11 +38,11 @@ import success from './sucess.png'
 import height from './height.png'
 import analyse from './analyse.png'
 import lamp from './lamp.jpg'
-import babe from './babe.jpg'
+import baby from './babe.jpg'
 
 
 export{
-    babe,
+    baby,
     height,
     analyse,
     lamp,
