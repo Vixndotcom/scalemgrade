@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import styles, { layout } from '../../style';
-import { analyse, babe, boy, desk, girl } from '../../assets';
+import { analyse, boy, desk, girl } from '../../assets';
 import { Background, Parallax } from 'react-parallax';
 
 

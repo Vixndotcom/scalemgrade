@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import styles from '../../style'
 import DynamicLeft from '../Dynamics'
-import { babe, baby, desk, lamp, success } from '../../assets'
+import {  baby, desk, lamp, success } from '../../assets'
 import { animated, useSpring, config} from 'react-spring'
 
 const Cardd = () => {
