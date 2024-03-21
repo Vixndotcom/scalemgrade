@@ -5,52 +5,145 @@ import {  baby, desk, lamp, success } from '../../assets'
 import { animated, useSpring, config} from 'react-spring'
 
 const Cardd = () => {
-const [loaded, setLoaded] = useState(false);
-
-
-const swipeProps = useSpring({
-  from: {width: '0%', transform: 'rotateY(-90deg)'},
-  to: {width: loaded ? '100%' : '0%', transform: loaded ? 'rotateY(0deg)' : 'rotateY(-90deg)'},
-  config: {tension: 80, friction: 10}
-});
-
-const zoomProps = useSpring ({
-  from: {transform: 'scale(0.8)'},
-  to: {transform: loaded ? 'scale(1)' : 'scale(0.8)'},
-  config: {tension: 120, friction: 14}
-});
-
-return(
-  <animated.div style={{overflow:'hidden', ...swipeProps }}>
-    <animated.img
-    src={baby}
-    style={{...zoomProps , borderRadiusBottom:'24px'}}
-    onLoad={() => setLoaded(true)}
-     />
-      
-    
-
-  </animated.div>
-)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  return(
+    <div>
+      <img src={baby} alt="student" />
+    </div>
+  )
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //   return (
     
