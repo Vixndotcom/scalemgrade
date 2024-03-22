@@ -625,13 +625,14 @@ svg{
   width: 100%;
   overflow: hidden;
   height: 80px;
-
+  background-color: #1100FF;
 }
 .scroll-text p{
   display: inline-block;
    padding-right: 25%; 
    margin-top: 10px;
    /* margin: auto; */
+  
    animation: scrolling 20s linear infinite;
 }
 
