@@ -1,56 +1,22 @@
-import React, { useState } from 'react'
-import styles from '../../style'
-import DynamicLeft from '../Dynamics'
-import {  baby, desk, lamp, success } from '../../assets'
-import { animated, useSpring, } from 'react-spring'
+import React from 'react'
+import PopUp from './PopUp'
+import { baby, library } from '../../assets'
+
 
 const Cardd = () => {
-const [loaded, setLoaded] = useState(false);
+  return (
+    <div>
+<PopUp>
+  <img src={baby} alt="" />
+</PopUp>
 
 
-const swipeProps = useSpring({
-  from: {width: '0%', transform: 'rotateY(-90deg)'},
-  to: {width: loaded ? '100%' : '0%', transform: loaded ? 'rotateY(0deg)' : 'rotateY(-90deg)'},
-  config: {tension: 80, friction: 10}
-});
-
-const zoomProps = useSpring ({
-  from: {transform: 'scale(0.8)'},
-  to: {transform: loaded ? 'scale(1)' : 'scale(0.8)'},
-  config: {tension: 120, friction: 14}
-});
-
-return(
-  <animated.div style={{overflow:'hidden', ...swipeProps }}>
-    <animated.img
-    src={baby}
-    style={{...zoomProps , borderRadiusBottom:'24px'}}
-    onLoad={() => setLoaded(true)}
-     />
       
-    
-
-  </animated.div>
-)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </div>
+  )
 }
+
+
 
 //   return (
     
