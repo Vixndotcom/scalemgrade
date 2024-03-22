@@ -50,7 +50,7 @@ const Services = () => {
 
 
   <Dynamics>
-    < div className={` ${styles.paddingX} ${styles.flexStart}  `}>
+    < div className={` ${styles.paddingX} ${styles.flexStart}  bg-nav`}>
       
       <div className={`${styles.boxWidth}  `}> 
  
@@ -84,12 +84,12 @@ const Services = () => {
       </div> 
       </DynamicLeft>
 
-        <div className='mt-24 mb-24'>
+        {/* <div className='mt-24 mb-24'>
           <Loop />
-        </div>
+        </div> */}
 
       <Dynamics>
-    < div className={` ${styles.paddingX} ${styles.flexStart}  `}>
+    < div className={` ${styles.paddingX} ${styles.flexStart} bg-serve `}>
       
       <div className={`${styles.boxWidth}  `}> 
  
