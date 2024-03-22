@@ -1,14 +1,14 @@
 import React from 'react'
-import PopUp from './PopUp'
+
 import { baby, library } from '../../assets'
 
 
 const Cardd = () => {
   return (
     <div>
-<PopUp>
+
   <img src={baby} alt="" />
-</PopUp>
+
 
 
       
