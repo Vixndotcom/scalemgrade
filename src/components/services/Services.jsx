@@ -84,7 +84,7 @@ const Services = () => {
       </div> 
       </DynamicLeft>
 
-        <div>
+        <div className='mt-4 mb-4'>
           <Loop />
         </div>
 
