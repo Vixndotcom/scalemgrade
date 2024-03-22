@@ -2,7 +2,7 @@ import React from 'react'
 
 const Loop = () => {
   return (
-    <div className='text-[28px]  font-semibold text-white scroll-text mt-4 mb-2'>
+    <div className='text-[28px]  font-semibold text-white scroll-text mt-5 mb-5'>
         <p>
             Let's make things Easier
         </p>
