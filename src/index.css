@@ -626,6 +626,8 @@ svg{
   overflow: hidden;
   height: 80px;
   background-color: #1100FF;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .scroll-text p{
   display: inline-block;
