@@ -89,7 +89,7 @@ const Services = () => {
         </div> */}
 
       <Dynamics>
-    < div className={` ${styles.paddingX} ${styles.flexStart} bg-serve `}>
+    < div className={` ${styles.paddingX} ${styles.flexStart} bg-nav `}>
       
       <div className={`${styles.boxWidth}  `}> 
  
