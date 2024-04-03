@@ -14,7 +14,7 @@ const Data = () => {
         
       <div className={`flex flex-row p-2 rounded-[20px] `}>
       <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter}  border-[2px] border-blue-600`}>  
-    <h1> 04</h1>
+    <h1 className='color'> 04</h1>
      </div> 
         {/* content */}
         <div className="flex-1 flex flex-col ml-3">

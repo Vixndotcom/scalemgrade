@@ -38,10 +38,18 @@ import success from './sucess.png'
 import height from './height.png'
 import analyse from './analyse.png'
 import lamp from './lamp.jpg'
-import baby from './baby.jpg'
 
+import baby from './baby.jpg'
+import score from './score.png'
+import timer from './timer.png'
+import easy from './easy.png'
+import personal from './personal.png'
 
 export{
+    personal,
+    timer,
+    easy,
+    score,
     baby,
     height,
     analyse,

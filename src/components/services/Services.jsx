@@ -13,6 +13,7 @@ import ImageS from './ImageS'
 import Loop from './Loop'
 import Pbar from './Pbar'
 import ProgressBarr from './ProgressBarr'
+import Personal from './Personal'
 
 
 const Services = () => {
@@ -113,6 +114,21 @@ const Services = () => {
       </div> 
 
       </DynamicLeft>
+
+     <Dynamics>
+
+    < div className={` ${styles.paddingX} ${styles.flexStart} bg-nav `}>
+        <div className={`${styles.boxWidth}  `}> 
+ 
+      < Personal />
+    
+      </div>
+      </div> 
+
+      </Dynamics>
+      <div>
+        <Loop />
+      </div>
 
       < div className={` ${styles.paddingX} ${styles.flexStart} h-[480px] bg-yellow-400 mb-10`}>
         <div className={`${styles.boxWidth}  `}> 
