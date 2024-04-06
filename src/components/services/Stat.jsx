@@ -8,7 +8,7 @@ const Stat = () => {
   return (
     <Statement>
     
-       <div>
+       <div className={`${styles.flexCenter} border-t-[1px] border-white mt-20 border-b-[1px]` }>
                 <img src={grad} alt="" className='w-[320px] mt-8 rounded-[24px] mb-10' />
             </div>
 
