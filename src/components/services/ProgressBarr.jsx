@@ -6,18 +6,18 @@ function ProgressBarr () {
 
     return(
         <div>
-            <h1 className='text-[36px] color mb-5 p-2'>Customer's Ratings <span><img src={height} className='w-[128px] h-[120px] shadow-text' /></span></h1>
+            <h1 className='text-[36px] color mb-5 p-2'>Customer's Ratings </h1>
             <div className='metric text-[24px]'>
        <span> Precision</span>
-       <Pbar value={94} />
+       <Pbar value={100} />
             </div>
             <div className='metric mt-5 text-[24px]'>
        <span>Punctuality </span>
-       <Pbar value={95}/>
+       <Pbar value={98}/>
             </div>
             <div className='metric mt-5 text-[24px]'>
        <span className='mb-2'>Delivery</span>
-       <Pbar value={92}/>
+       <Pbar value={99}/>
             </div>
 
         </div>

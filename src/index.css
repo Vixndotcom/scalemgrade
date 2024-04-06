@@ -622,7 +622,7 @@ svg{
   justify-content: center;
 }
 
-
+/* 
 
 .scroll-text{
   display: flex;
@@ -630,32 +630,73 @@ svg{
   width: 100%;
   overflow: hidden; 
   height: 100px;
-  /* background-color: #1100FF; */
   margin-top: 40px;
   margin-bottom: 40px;
 }
-.scroll-text p{
+.scroll-text div{
+  flex:0 0 auto;
   display: flex;
   flex-direction: row;
-  /* display: inline-block; */
-   padding-right: 25%; 
+   padding-right: 36px; 
    margin-top: 20px;
-   /* margin: auto; */
   
-   animation: scrolling 20s linear infinite;
+  
+   animation: scrolling 10s linear infinite;
+}
+
+.sent-image{
+  width: 72px;
+  height: 72px;
+  margin-right: 8px;
 }
 
 @keyframes scrolling {
   0%{
-    transform: translateX(100%);
+    transform: translateX(0);
   }
-   /* 50%{
-    transform: translateX(100%);
-  }  */
+
   100%{
-    transform: translateX(-200%);
+    transform: translateX(-100%);
+  }
+} */
+
+.scroll-text-container{
+  display: flex;
+  /* overflow: hidden; */
+   white-space: nowrap; 
+  height: 200px;
+  width: 1200px;
+  
+}
+ /* .scroll-text-container::-webkit-scrollbar {
+  display: none;
+}  */
+
+
+.scroll-text{
+  display: flex;
+  align-items: center;
+  margin-right:60px ;
+  
+  /* animation-duration:10s ; */
+}
+.scroll-img{
+height:48px;
+width: 48px;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
   }
 }
+
+
+
+
 .bg-loop{
   /* Rectangle 25 */
 

@@ -1,42 +1,61 @@
-import React from 'react'
-import { easy, score, timer } from '../../assets'
+import React, { useEffect, useRef } from 'react'
+import { easy, score, timer } from '../../assets';
 
 const Loop = () => {
-  return (
-    <div className='text-[28px] flex font-semibold text-black scroll-text mt-10 mb-10'>
-        <p className='flex flex-row'>
-            <h1>Let's make things Easier</h1> 
-            <img src={easy} className='w-[72px] h-[72px]' />
-        </p>
-   
-        <p className='flex flex-row'>
-            <h1>Optimise your Time</h1> 
-            <img src={timer} className='w-[72px] h-[70px]' />
-        </p>
-   
-        <p className='flex flex-row'>
-            <h1>Score Higher</h1> 
-            <img src={score} className='w-[72px] h-[72px]' />
-        </p>
-   
-        
-    
-      
-        <p className='textt'>
-            Let's make things 
-        </p>
+const containerRef = useRef(null);
 
-        <p>
-            Score Higher
-        </p>
-        
-        <p>
-            Score Higher
-        </p>
-      
-        
-    </div>
-  )
-}
+
+useEffect (() => {
+   const container = containerRef.current;
+ const scrollWidth = container.scrollWidth;
+ const clientWidth = container.clientWidth;
+ const duration = (scrollWidth / 100);
+
+
+   
+    const keyframes = `scrollText ${duration}s linear infinite`;
+    container.style.animation = keyframes;
+
+    return () => {
+        container.style.animation = 'none';
+    };
+   
+}, []);
+
+
+  return (
+    <div className='scroll-text-container gap-24' ref={containerRef}>
+     <div className='scroll-text'>
+ <p className='text-[36px] font-semibold '>Lets make things Easier</p>
+ <img src={easy} className='scroll-img'/>
+     </div>
+
+     <div className='scroll-text'>
+ <p className='text-[36px] font-medium' >Optimise your Time</p>
+ <img src={timer} className='scroll-img'/>
+     </div>
+
+     <div className='scroll-text'>
+ <p className='text-[36px] font-medium' >Score Higher</p>
+ <img src={score} className='scroll-img'/>
+     </div>
+     <div className='scroll-text'>
+ <p className='text-[36px] font-medium '>Lets make things Easier</p>
+ <img src={easy} className='scroll-img'/>
+     </div>
+ 
+     <div className='scroll-text'>
+ <p className='text-[36px] font-medium' >Optimise your Time</p>
+ <img src={timer} className='scroll-img'/>
+     </div> 
+
+     <div className='scroll-text'>
+ <p className='text-[36px] font-medium' >Score Higher</p>
+ <img src={score} className='scroll-img'/>
+     </div>
+      </div>
+
+  );
+};
 
 export default Loop
