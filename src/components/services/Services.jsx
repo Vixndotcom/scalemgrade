@@ -130,7 +130,7 @@ const Services = () => {
         <Loop />
       </div>
 
-      < div className={` ${styles.paddingX} ${styles.flexStart} h-[480px] bg-yellow-400 mb-10`}>
+      < div className={` ${styles.paddingX} ${styles.flexStart} h-[480px] bg-yellow-400 `}>
         <div className={`${styles.boxWidth}  `}> 
  
       < ProgressBarr/>
