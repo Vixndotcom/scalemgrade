@@ -140,7 +140,7 @@ const Services = () => {
 
 
 
- < div className={` ${styles.paddingX} ${styles.flexStart} bg-nav h-[440px] `}>
+ < div className={` ${styles.paddingX} ${styles.flexStart} bg-white h-[440px] `}>
 <div className={`${styles.boxWidth}  `}> 
 
 
